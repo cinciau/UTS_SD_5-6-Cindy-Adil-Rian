@@ -2,7 +2,7 @@ Link Soal UTS: https://drive.google.com/drive/folders/1xehbVEg73oedbQbNWTp8JCrMN
 
 NAMA KELOMPOK
 
-1. Cindy Auia
+1. Cindy Aulia
 2. Muhammad Adil Busra
 3. Rian Ansari Harahap
    
