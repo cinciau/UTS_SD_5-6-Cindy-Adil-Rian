@@ -4,4 +4,5 @@ NAMA KELOMPOK
 
 1. Cindy Auia
 2. Muhammad Adil Busra
-3. Rian
+3. Rian Ansari Harahap
+   
