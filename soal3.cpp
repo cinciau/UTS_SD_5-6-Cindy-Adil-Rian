@@ -71,7 +71,7 @@ int main() {
 
     for (int i = 0; i < E; ++i) {
         int u, v;
-        cout << "Masukkan koneksi pertemanan (u v) ke " << i << " : ";
+        cout << "Masukkan koneksi pertemanan (u v) ke " << i + 1 << " : ";
         cin >> u >> v;
         g.addEdge(u, v); 
     }
