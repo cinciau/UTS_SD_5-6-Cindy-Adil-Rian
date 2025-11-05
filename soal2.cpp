@@ -36,3 +36,27 @@ int main() {
     }
     return 0;
 }
+/*
+Program ini mensimulasikan sistem antrian dengan dua jenis antrean:
+1. Antrian normal
+2. Antrian darurat (memiliki prioritas lebih tinggi)
+
+Alur kerja program:
+- Input pertama adalah N, jumlah perintah yang akan diproses.
+- Setiap perintah bisa berupa:
+  • "DATANG <nama>"   → menambahkan nama ke antrian normal.
+  • "DARURAT <nama>"  → menambahkan nama ke antrian darurat.
+  • "LAYANI"          → melayani pasien:
+       - Jika ada pasien darurat, layani pasien darurat terlebih dahulu.
+       - Jika tidak ada pasien darurat, layani pasien normal.
+- Program menampilkan nama pasien yang sedang dilayani.
+
+Struktur data yang digunakan:
+- queue<string> normal   → menyimpan pasien normal.
+- queue<string> darurat  → menyimpan pasien darurat.
+
+Tujuan:
+Mensimulasikan sistem pelayanan dengan prioritas pasien darurat
+menggunakan konsep antrian (queue).
+
+*/
